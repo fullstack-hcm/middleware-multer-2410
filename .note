@@ -1,0 +1,23 @@
+- bai 1
+    users = [
+        { username: 'abc', email: 'abc@gmail.com', gallery: [
+            { createAt: 'ISO', name: 'abc.png' },
+            { createAt: 'ISO', name: 'abc.png' },
+        ] }
+    ]
+
+- bai 2
+    users = [
+            { username: 'abc', email: 'abc@gmail.com', 
+                gallery: [
+                    { createAt: 'ISO', name: 'abc.png' },
+                    { createAt: 'ISO', name: 'abc.png' },
+                ],
+                avatar: {
+                    createAt: 'ISO', name: 'avatar.png'
+                }
+            }
+        ]
+
+// postman
+// view (ejs)
